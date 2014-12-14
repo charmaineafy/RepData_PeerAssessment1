@@ -129,7 +129,7 @@ barplot(totStepsPerDay_Full$steps,
         main="Total Steps Per Day (Full Data)", xlab="Date", ylab="Steps")
 
 # Output plot
-dev.copy(png, file="./figure/fig3-TotalStepPerDay(Full).png")
+dev.copy(png, file="./figure/Fig3-TotalStepPerDay(Full).png")
 dev.off()
 ```
 
@@ -186,6 +186,6 @@ xyplot(stepsOrigin ~ interval | dayType, data = results, layout = c(1, 2), type=
        xlab="5-min Intervals", ylab="Steps")
 
 # Output plot
-dev.copy(png, file="./figure/fig4-WkendvsWkkday.png")
+dev.copy(png, file="./figure/Fig4-WkendvsWkkday.png")
 dev.off()
 ```
